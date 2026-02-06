@@ -9753,6 +9753,3350 @@ collection:
             send: true
             store: true
           rebuildPath: true
+  - name: SYSGER 20
+    meta:
+      id: fld_f70d9568fee548ca803d4b0de681a902
+      created: 1770380573075
+      modified: 1770380573075
+      sortKey: -1769777261378
+      description: ""
+    children:
+      - name: ASSISTENCIA TECNICA
+        meta:
+          id: fld_308c5e0a555c4e1b9614ca39c4d92c57
+          created: 1770380573078
+          modified: 1770380573078
+          sortKey: -1769777268347
+          description: ""
+        children:
+          - name: 71447 - TPDESP
+            meta:
+              id: fld_405dea20fa194279b37dd5325d5f4001
+              created: 1770380573081
+              modified: 1770380573081
+              sortKey: -1769777108971
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/technical-assistance/expenses-types/lists
+                name: Listar Tipos de Despesa
+                meta:
+                  id: req_63fcbd64e7634b9a98270885c171ef7b
+                  created: 1770380573085
+                  modified: 1770380573085
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446127
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/expenses-types/properties
+                name: Listar Properties
+                meta:
+                  id: req_f31e1b94591249fb840f08653ff5e496
+                  created: 1770380573088
+                  modified: 1770380573088
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446126
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/expenses-types/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_3ba3828c699a4f2d9047077b34a094bd
+                  created: 1770380573091
+                  modified: 1770380573091
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446125
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/expenses-types
+                name: Inserir Tipo de Despesa
+                meta:
+                  id: req_15ff6ed001cf4100a3e644ec0db9936a
+                  created: 1770380573093
+                  modified: 1770380573093
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446124
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "",
+                    	"productCode": ""
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/expenses-types/4
+                name: Alterar Tipo de Despesa
+                meta:
+                  id: req_79240d52ddf642b1b261a45f87897626
+                  created: 1770380573096
+                  modified: 1770380573096
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446123
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste INSOMNIA",
+                    	"productCode": "SERV-001"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/expenses-types/1
+                name: Excluir Tipo de Despesa
+                meta:
+                  id: req_b45394714fca4d65878c2547a9f37f0c
+                  created: 1770380573099
+                  modified: 1770380573099
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446122
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71449 - KITASTEC
+            meta:
+              id: fld_847df0daf2514764b1a33c60a47c8bdd
+              created: 1770380573103
+              modified: 1770380573103
+              sortKey: -1769777109071
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/technical-assistance/kits/lists
+                name: Listar todos Kits
+                meta:
+                  id: req_4772e1852ae04bdbbad5fb8e9ec97c97
+                  created: 1770380573106
+                  modified: 1770380573106
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446120
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits/8
+                name: Listar Kit
+                meta:
+                  id: req_15fd3dbb851a42b6b5f077c40ba6ee3f
+                  created: 1770380573110
+                  modified: 1770380573110
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446119
+                method: GET
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits/properties
+                name: Listar Prop KITS
+                meta:
+                  id: req_0e5632bde64f4cb5967d0afa392259b1
+                  created: 1770380573112
+                  modified: 1770380573112
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446118
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits/reports
+                name: Imprimir Relatório KIT
+                meta:
+                  id: req_31cdfce31b024a9199681e7a06605d8b
+                  created: 1770380573114
+                  modified: 1770380573114
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446117
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits
+                name: Inserir Kit
+                meta:
+                  id: req_9611cf3dca71499497b8507547135d73
+                  created: 1770380573117
+                  modified: 1770380573117
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446116
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |
+                    {
+                        "kitDescription": "TESTE",
+                        "annotationId": null,
+                        "imageId": "",
+                        "writeDown": {
+                            "id": null
+                        },
+                        "idimag": {
+                            "id": ""
+                        },
+                        "kitItems": [
+                              {
+                                "productCode": "000.32.30.0484",
+                                "productQuantity": 5
+                              }
+                        ]
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits/4
+                name: Alterar Kit
+                meta:
+                  id: req_d3a47247919348eaa57da32969321b67
+                  created: 1770380573120
+                  modified: 1770380573120
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446115
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                        "kitDescription": "TESTE",
+                        "annotationId": null,
+                        "imageId": "",
+                        "writeDown": {
+                            "id": null
+                        },
+                        "idimag": {
+                            "id": ""
+                        },
+                        "kitItems": [
+                              {
+                                "productCode": "TESTE MICAELA",
+                                "productQuantity": 1,
+                                "id": null
+                              },
+                              {
+                                "productCode": "TESTE",
+                                "productQuantity": 5,
+                                "id": null
+                              }
+                        ]
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits/4
+                name: Excluir Kit
+                meta:
+                  id: req_53eaed373ea34181abd0835f643935ab
+                  created: 1770380573123
+                  modified: 1770380573123
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446114
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits/items/lists
+                name: Listar Grid de Itens do Kit
+                meta:
+                  id: req_a073b76439424fa0bd17608198db70fe
+                  created: 1770380573126
+                  modified: 1770380573126
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446113
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"params": {
+                    				"CODIGO": 1
+                    		}
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71449 - ITEMKIT
+            meta:
+              id: fld_8b8e8c2dccd748c79d9f70c39362438b
+              created: 1770380573129
+              modified: 1770380573129
+              sortKey: -1769777109021
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/technical-assistance/kits-items/lists
+                name: Listar Itens
+                meta:
+                  id: req_5b723a8e49ce45458fcb7edd34a5f237
+                  created: 1770380573132
+                  modified: 1770380573132
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446111
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits-items/10
+                name: Pegar ITEM
+                meta:
+                  id: req_1e2cae80a55f48f396cb8dfb25bde080
+                  created: 1770380573134
+                  modified: 1770380573134
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446110
+                method: GET
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits-items/properties
+                name: Listar Prop ITEM
+                meta:
+                  id: req_64a71f95fd634a3b82988fef56be8a92
+                  created: 1770380573137
+                  modified: 1770380573137
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446109
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits-items/
+                name: Inserir ITEM
+                meta:
+                  id: req_17b274708f434c09b6bd57dc6cea764e
+                  created: 1770380573139
+                  modified: 1770380573139
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446108
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                        "productCode": "TESTE",
+                        "productQuantity": 0,
+                        "id": 10,
+                        "kitCode": "11",
+                        "prods": {
+                            "id": "TESTE",
+                            "productDescription": "TESTE36262"
+                        },
+                        "kitastec": {
+                            "id": 11,
+                            "kitDescription": "TESTE",
+                            "annotationId": null,
+                            "imageId": "",
+                            "writeDown": {
+                                "id": null
+                            },
+                            "idimag": {
+                                "id": ""
+                            }
+                        }
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits-items/10
+                name: Alterar ITEM
+                meta:
+                  id: req_dcb06a12acf34f718b5f95fcaadd8405
+                  created: 1770380573141
+                  modified: 1770380573141
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446107
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                        "productCode": "TESTE",
+                        "productQuantity": 12,
+                        "id": 10,
+                        "kitCode": "11",
+                        "prods": {
+                            "id": "TESTE",
+                            "productDescription": "TESTE36262"
+                        },
+                        "kitastec": {
+                            "id": 11,
+                            "kitDescription": "TESTE",
+                            "annotationId": null,
+                            "imageId": "",
+                            "writeDown": {
+                                "id": null
+                            },
+                            "idimag": {
+                                "id": ""
+                            }
+                        }
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/kits-items/10
+                name: Excluir ITEM
+                meta:
+                  id: req_95b62e566c6e4c9d860cb573be1e40fc
+                  created: 1770380573143
+                  modified: 1770380573143
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446106
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71450 - TPORDSERV
+            meta:
+              id: fld_936c355b4b4847f1bbde8a5de4c6c4d4
+              created: 1770380573146
+              modified: 1770380573146
+              sortKey: -1769777109046
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/technical-assistance/services-orders-types/lists
+                name: Listar Tipos de Ordem de Serviço
+                meta:
+                  id: req_d840a8739c784f27aea3c24932ee667e
+                  created: 1770380573149
+                  modified: 1770380573149
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446104
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/services-orders-types/properties
+                name: Listar Properties
+                meta:
+                  id: req_34e2664908ca4915b0448407fa00253b
+                  created: 1770380573152
+                  modified: 1770380573152
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446103
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/services-orders-types/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_c388d92fba0f413f875b1ff6edba8759
+                  created: 1770380573154
+                  modified: 1770380573154
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446102
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/services-orders-types
+                name: Inserir Tipo de Ordem de Serviço
+                meta:
+                  id: req_221cedbd7d0544cf8bdeb8dd340f0b7d
+                  created: 1770380573157
+                  modified: 1770380573157
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446101
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "TESTE INSOMNIA",
+                    	"localServiceOrder": "E"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/services-orders-types/4
+                name: Alterar Tipo de Ordem de Serviço
+                meta:
+                  id: req_1893905bdee34bcfa4f081ac72028397
+                  created: 1770380573160
+                  modified: 1770380573160
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446100
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste INSOMNIA",
+                    	"productCode": "SERV-001"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/technical-assistance/services-orders-types/1
+                name: Excluir Tipo de Ordem de Serviço
+                meta:
+                  id: req_8962df4ebbf347aea4e19f5ef5cd0fb9
+                  created: 1770380573162
+                  modified: 1770380573162
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446099
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: GESTAO DE PROJETOS
+        meta:
+          id: fld_ff3dc0791b204028ae00250172163e33
+          created: 1770380573164
+          modified: 1770380573164
+          sortKey: -1769777268247
+          description: ""
+        children:
+          - name: 71709 - CTATPJ
+            meta:
+              id: fld_77aa4e8607d742c9b374c554de7b202f
+              created: 1770380573168
+              modified: 1770380573168
+              sortKey: -1769777345879
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/activity-categories/lists
+                name: Listar Categorias
+                meta:
+                  id: req_0a6d152d43714427ba98d2d94e23c185
+                  created: 1770380573170
+                  modified: 1770380573170
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446089
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activity-categories/properties
+                name: Listar Properties
+                meta:
+                  id: req_7c286a1593d648d2987560ba441be773
+                  created: 1770380573173
+                  modified: 1770380573173
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446088
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activity-categories/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_a49e544b87404901ae0455370598052e
+                  created: 1770380573175
+                  modified: 1770380573175
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446087
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activity-categories
+                name: Inserir Categorias
+                meta:
+                  id: req_a1823e3f79bd44c594bbff0b1b301f93
+                  created: 1770380573179
+                  modified: 1770380573179
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446086
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste Insomnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activity-categories/6
+                name: Alterar Categorias
+                meta:
+                  id: req_bbbfca5afc084d20bc062a67effcee3a
+                  created: 1770380573182
+                  modified: 1770380573182
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446085
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste Ins55omnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activity-categories/6
+                name: Excluir Categorias
+                meta:
+                  id: req_793102cd8f134ef49671452869dfb9bd
+                  created: 1770380573186
+                  modified: 1770380573186
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446084
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71710 - TAXAS
+            meta:
+              id: fld_cac4d13102cc496abf98d96d96b493a8
+              created: 1770380573190
+              modified: 1770380573190
+              sortKey: -1769777345979
+              description: ""
+            children:
+              - name: F_TBTXPJ
+                meta:
+                  id: fld_2d39540cccd34c12928c1298ff247a41
+                  created: 1770380573197
+                  modified: 1770380573197
+                  sortKey: -1769604446082
+                  description: ""
+                children:
+                  - url: http://localhost:9000/v1/project-management/fees-tables/lists
+                    name: Listar Taxas
+                    meta:
+                      id: req_147a4973afe349ca8e6cfd403a717879
+                      created: 1770380573202
+                      modified: 1770380573202
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446081
+                    method: POST
+                    body:
+                      mimeType: application/json
+                      text: |-
+                        {
+                        	"user": "VIS",
+                        	"pass": "Vini2025!",
+                        	"station": "DESENV-12",
+                        	"project": 1,
+                        	"adm": true
+                        }
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                      - name: User-Agent
+                        value: insomnia/11.4.0
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+                  - url: http://localhost:9000/v1/project-management/fees-tables/6
+                    name: Pegar ITEM
+                    meta:
+                      id: req_c359cab754e345279b7c76f1754dfab2
+                      created: 1770380573209
+                      modified: 1770380573209
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446080
+                    method: GET
+                    body:
+                      mimeType: application/json
+                      text: |-
+                        {
+                        	"user": "VIS",
+                        	"pass": "Vini2025!",
+                        	"station": "DESENV-12",
+                        	"project": 1,
+                        	"adm": true
+                        }
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                      - name: User-Agent
+                        value: insomnia/11.4.0
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+                  - url: http://localhost:9000/v1/project-management/fees-tables/properties
+                    name: Listar Prop ITEM
+                    meta:
+                      id: req_3f57a3b4b2424ee5b880b086eadbc9d9
+                      created: 1770380573214
+                      modified: 1770380573214
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446079
+                    method: POST
+                    body:
+                      mimeType: application/json
+                      text: |-
+                        {
+                        	"user": "VIS",
+                        	"pass": "Vini2025!",
+                        	"station": "DESENV-12",
+                        	"project": 1,
+                        	"adm": true
+                        }
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                      - name: User-Agent
+                        value: insomnia/11.4.0
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+                  - url: http://localhost:9000/v1/project-management/fees-tables
+                    name: Inserir ITEM
+                    meta:
+                      id: req_2d0650f77fed4547b67fe91df9cd7da4
+                      created: 1770380573218
+                      modified: 1770380573218
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446078
+                    method: POST
+                    body:
+                      mimeType: application/json
+                      text: |-
+                        {
+                            "description": "TESTE",
+                            "startValue": null,
+                            "endValue": null,
+                            "additionalNight": "1",
+                            "nightAdditionalFee": 50,
+                            "danger": "1",
+                            "startAdditional": null,
+                            "endAdditional": "2025-02-01T00:00:00.000-03:00",
+                            "hazardRate": 50,
+                            "complement": null,
+                            "type": "H",
+                            "setsTheAccountTypesSynt": "Qtde (H)oras",
+                            "status": null,
+                            "statusOfRelease": null,
+                            "annotationId": null,
+                            "imageId": null
+                        }
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                      - name: User-Agent
+                        value: insomnia/11.4.0
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+                  - url: http://localhost:9000/v1/project-management/fees-tables/10
+                    name: Alterar ITEM
+                    meta:
+                      id: req_1e9d4a68a7994a3d87a51c6474a2df7c
+                      created: 1770380573222
+                      modified: 1770380573222
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446077
+                    method: PUT
+                    body:
+                      mimeType: application/json
+                      text: |-
+                        {
+                            "description": "TESTE",
+                            "startValue": null,
+                            "endValue": null,
+                            "additionalNight": "1",
+                            "nightAdditionalFee": 50,
+                            "danger": "1",
+                            "startAdditional": "2025-01-01T00:00:00.000-03:00",
+                            "endAdditional": "2025-02-01T00:00:00.000-03:00",
+                            "hazardRate": 50,
+                            "complement": null,
+                            "type": "H",
+                            "setsTheAccountTypesSynt": "Qtde (H)oras",
+                            "status": null,
+                            "statusOfRelease": null,
+                            "annotationId": null,
+                            "imageId": null
+                        }
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                      - name: User-Agent
+                        value: insomnia/11.4.0
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+                  - url: http://localhost:9000/v1/project-management/fees-tables
+                    name: Excluir ITEM
+                    meta:
+                      id: req_94fb4574922d4669be8cfd05d01803ba
+                      created: 1770380573237
+                      modified: 1770380573237
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446076
+                    method: DELETE
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                      - name: User-Agent
+                        value: insomnia/11.4.0
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+              - name: F_TBTXHRNR
+                meta:
+                  id: fld_3742af88e3624a1fba2a06a1cde14eb5
+                  created: 1770380573242
+                  modified: 1770380573242
+                  sortKey: -1769604446075
+                  description: ""
+                children:
+                  - url: http://localhost:9000/v1/project-management/fees-tables-normals-hours/
+                    name: Listar ITENS DA TAB. TAXAS
+                    meta:
+                      id: req_676d5d614c5543b7ab684e67ec78810f
+                      created: 1770380573246
+                      modified: 1770380573246
+                      isPrivate: false
+                      description: ""
+                      sortKey: -1769604446074
+                    method: POST
+                    body:
+                      mimeType: application/json
+                      text: "{\r
+
+                        \    \"tableRate\": \"10\",\r
+
+                        \    \"weekday\": 2,\r
+
+                        \    \"startTime\": \"1899-12-30T00:00:00.000-02:00\",\r
+
+                        \    \"endTime\": \"1899-12-30T00:00:00.000-02:00\",\r
+
+                        \    \"totalHours\": 8,\r
+
+                        \    \"id\": 1,\r
+
+                        \    \"tbtxpj\": {\r
+
+                        \        \"id\": \"1\",\r
+
+                        \        \"description\": \"TESTE TAXAS\",\r
+
+                        \        \"startValue\": null,\r
+
+                        \        \"endValue\": null,\r
+
+                        \        \"additionalNight\": \"N\",\r
+
+                        \        \"nightAdditionalFee\": null,\r
+
+                        \        \"danger\": \"N\",\r
+
+                        \        \"hazardRate\": null,\r
+
+                        \        \"startAdditional\": null,\r
+
+                        \        \"type\": \"H\",\r
+
+                        \        \"endAdditional\": null,\r
+
+                        \        \"complement\": \"\",\r
+
+                        \        \"status\": \"I\",\r
+
+                        \        \"annotationId\": null,\r
+
+                        \        \"imageId\": \"\",\r
+
+                        \        \"writeDown\": {\r
+
+                        \            \"id\": 0\r
+
+                        \        },\r
+
+                        \        \"idimag\": {\r
+
+                        \            \"id\": \"\"\r
+
+                        \        }\r
+
+                        \    }\r
+
+                        }\r
+
+                        \        "
+                    headers:
+                      - name: Content-Type
+                        value: application/json
+                    authentication:
+                      type: bearer
+                      disabled: false
+                      token: "{{TOKEN}}"
+                      prefix: ""
+                    settings:
+                      renderRequestBody: true
+                      encodeUrl: true
+                      followRedirects: global
+                      cookies:
+                        send: true
+                        store: true
+                      rebuildPath: true
+          - name: 71711 - FREQPJ
+            meta:
+              id: fld_7a578baf2f334711bdf6da9b9759d108
+              created: 1770380573250
+              modified: 1770380573250
+              sortKey: -1769777346079
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/frequencies/lists
+                name: Listar Frequências
+                meta:
+                  id: req_3324034baaca48fb842e0e63f823c044
+                  created: 1770380573252
+                  modified: 1770380573252
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446072
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/frequencies/properties
+                name: Listar Properties
+                meta:
+                  id: req_73d1fbaa6b2f408ca4793b65aaccb197
+                  created: 1770380573255
+                  modified: 1770380573255
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446071
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/frequencies/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_fb08787aa941463bb22f02dee0bb3577
+                  created: 1770380573258
+                  modified: 1770380573258
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446070
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71712 - PROCPJ
+            meta:
+              id: fld_4b6879e0cad5440f95f3c30dd9d6b787
+              created: 1770380573262
+              modified: 1770380573262
+              sortKey: -1769777346179
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/procedures/lists
+                name: Listar Procedimentos
+                meta:
+                  id: req_d7f67018b9db4613bb86aed7a152aa2f
+                  created: 1770380573264
+                  modified: 1770380573264
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446068
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/procedures/properties
+                name: Listar Properties
+                meta:
+                  id: req_3bc39f94da334d0d9bee54c7bd889321
+                  created: 1770380573267
+                  modified: 1770380573267
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446067
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/procedures/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_6fd1be670b9749cd956d93a7ca9d36e2
+                  created: 1770380573269
+                  modified: 1770380573269
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446066
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/procedures
+                name: Inserir Procedimentos
+                meta:
+                  id: req_8f26aab7111e47d5a1cf55829aa80a95
+                  created: 1770380573272
+                  modified: 1770380573272
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446065
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste INSOMNIA",
+                      "script": "TESTE",
+                       "alert": "S",
+                      "alertDescription": "TESTE"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/procedures/3
+                name: Alterar Procedimentos
+                meta:
+                  id: req_50930e83c0184f1fb203f8ff4a4aad1d
+                  created: 1770380573275
+                  modified: 1770380573275
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446064
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste INSOMNIA",
+                      "script": "TESTE",
+                       "alert": "N",
+                      "alertDescription": "TESTE"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/procedures/6
+                name: Excluir Procedimentos
+                meta:
+                  id: req_8abacb67e0eb4c268f361aaf84902ed5
+                  created: 1770380573278
+                  modified: 1770380573278
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446063
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71713 - GRPATV
+            meta:
+              id: fld_887c4f9500e7413f812996b7629e7ace
+              created: 1770380573282
+              modified: 1770380573282
+              sortKey: -1769777346279
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations/lists
+                name: Listar Grupos
+                meta:
+                  id: req_d0b85e9718724e009869d66aae7db111
+                  created: 1770380573284
+                  modified: 1770380573284
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446061
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations/properties
+                name: Listar Properties
+                meta:
+                  id: req_aa6a1e563c0f4d84be24fc01d7662e40
+                  created: 1770380573287
+                  modified: 1770380573287
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446060
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_598a424884e942f1ba08e367f00c78fe
+                  created: 1770380573289
+                  modified: 1770380573289
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446059
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations
+                name: Inserir Grupo
+                meta:
+                  id: req_36d72a69dbbe4298a10dff7396f0e88f
+                  created: 1770380573291
+                  modified: 1770380573291
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446058
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste INSOMNIA"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations/7
+                name: Alterar Grupo
+                meta:
+                  id: req_f03bd2f4f35243dfb77594c7453383bf
+                  created: 1770380573293
+                  modified: 1770380573293
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446057
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste INSOMNIA"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations/8
+                name: Excluir Grupo
+                meta:
+                  id: req_eb6696f553154f43b05ebdf6f8aca208
+                  created: 1770380573296
+                  modified: 1770380573296
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446056
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/activities-group-registrations/activities/lists
+                name: Listar Grid de Atividades
+                meta:
+                  id: req_0685bab998d14042bbc3db08e629f17f
+                  created: 1770380573298
+                  modified: 1770380573298
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446055
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"params": {
+                    				"GRPATV": 1
+                    		}
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71714 - KARPPG
+            meta:
+              id: fld_6199a3ebc0924c669f13d2636fa6fd5a
+              created: 1770380573300
+              modified: 1770380573300
+              sortKey: -1769777346379
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/prepaid-controls/lists
+                name: Listar Grupos
+                meta:
+                  id: req_8d40724af85141c58c5893a9f0086f5d
+                  created: 1770380573302
+                  modified: 1770380573302
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446053
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"params": {
+                    			"SALINI": 1,
+                    			"CODEMP": "05464",
+                    			"CODPRO": "",
+                    			"CHKPRE": "S"
+                    	}
+                    }	 
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/prepaid-controls/properties
+                name: Listar Properties
+                meta:
+                  id: req_6694cc0c279941aca0ad56dc18537b82
+                  created: 1770380573306
+                  modified: 1770380573306
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446052
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71714 - MATPPG
+            meta:
+              id: fld_648543c7fc3a438eaac7e1c33b7174ea
+              created: 1770380573308
+              modified: 1770380573308
+              sortKey: -1769777346479
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/prepaid-materials/lists
+                name: Listar Materiais
+                meta:
+                  id: req_f441fba16dad433e9bb5c40c911a20c7
+                  created: 1770380573310
+                  modified: 1770380573310
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446050
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/prepaid-materials/properties
+                name: Listar Properties
+                meta:
+                  id: req_0a528afac2594f459145cded9896aa2d
+                  created: 1770380573313
+                  modified: 1770380573313
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446049
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/prepaid-materials/
+                name: Inserir Material
+                meta:
+                  id: req_ca2f56ffa5d745b5bbf92ec5657f1d40
+                  created: 1770380573316
+                  modified: 1770380573316
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446048
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"id": "FRETE-002"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/prepaid-materials/FRETE-002
+                name: Excluir Grupo
+                meta:
+                  id: req_70a2ebf4742f4ae0a667e77770105a8b
+                  created: 1770380573318
+                  modified: 1770380573318
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446047
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71707 - CATPRJ
+            meta:
+              id: fld_c6df41c33f174d19aa081280d0954ed4
+              created: 1770380573320
+              modified: 1770380573320
+              sortKey: -1769777346579
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/project-management/project-categories-tables/lists
+                name: Listar Categorias
+                meta:
+                  id: req_8aebc71400cd445980f267a3f0e6de88
+                  created: 1770380573322
+                  modified: 1770380573322
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446096
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/project-categories-tables/properties
+                name: Listar Properties
+                meta:
+                  id: req_a944d6d465654414b9e3829318821c52
+                  created: 1770380573325
+                  modified: 1770380573325
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446095
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/project-categories-tables/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_8a9bd725dd4f4bc4932f17da381c82f3
+                  created: 1770380573327
+                  modified: 1770380573327
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446094
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/project-categories-tables
+                name: Inserir Categorias
+                meta:
+                  id: req_b7b26163f1de41e6b11d56a9ed8e6771
+                  created: 1770380573329
+                  modified: 1770380573329
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446093
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"id":"",
+                    	"projectCategoryDescription": "Teste Insomnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/project-categories-tables/7
+                name: Alterar Categorias
+                meta:
+                  id: req_6ed3a4b0a7f84fb9ad404b4f337e9417
+                  created: 1770380573331
+                  modified: 1770380573331
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446092
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"projectCategoryDescription": "Teste Ins55omnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/project-management/project-categories-tables/8
+                name: Excluir Categorias
+                meta:
+                  id: req_b046e1f7c6434d00bfa20e76bd4ec73b
+                  created: 1770380573333
+                  modified: 1770380573333
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604446091
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: MANUTENCAO
+        meta:
+          id: fld_cf04f16eda6544b28d286610c625815c
+          created: 1770380573336
+          modified: 1770380573336
+          sortKey: -1769777268447
+          description: ""
+        children:
+          - name: 71113 - TIPALI
+            meta:
+              id: fld_0d1d91708eb6407ab54a72665674e999
+              created: 1770380573338
+              modified: 1770380573338
+              sortKey: -1769777408740
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/maintenence/feed-types/lists
+                name: Listar Tipos
+                meta:
+                  id: req_978a0f3201304125838970a77d249346
+                  created: 1770380573340
+                  modified: 1770380573340
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445893
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/feed-types/properties
+                name: Listar Properties
+                meta:
+                  id: req_703d7eb92fdb48dea1aac0c5496f350c
+                  created: 1770380573342
+                  modified: 1770380573342
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445892
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/feed-types/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_5b05ada3bc464703b0cb7e6803351318
+                  created: 1770380573344
+                  modified: 1770380573344
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445891
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/feed-types
+                name: Inserir Tipo
+                meta:
+                  id: req_238829e936cd47229a09a866170263b4
+                  created: 1770380573346
+                  modified: 1770380573346
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445890
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"id":"",
+                    	"description": "Teste Insomnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/feed-types/16
+                name: Alterar Tipo
+                meta:
+                  id: req_f217c2354a0f49f3b72df1672eaa0b67
+                  created: 1770380573348
+                  modified: 1770380573348
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445889
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"description": "Teste Ins55omnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/feed-types/16
+                name: Excluir Tipo
+                meta:
+                  id: req_1ef55beddb524551a2a066bc6de5ac06
+                  created: 1770380573350
+                  modified: 1770380573350
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445888
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: 71114 - CATREC
+            meta:
+              id: fld_93d5eff852544abfa21a1d7db11308d5
+              created: 1770380573352
+              modified: 1770380573352
+              sortKey: -1769777408840
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/maintenence/resources-categories/lists
+                name: Listar Categorias
+                meta:
+                  id: req_89e58c99daac4ab88cfa8979f47b6b39
+                  created: 1770380573354
+                  modified: 1770380573354
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445886
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYxNDA5MzcsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.aCKUpZsonhdSejVXEiLZOrSKIj5WlPNnh8OrwAnR8Bo
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/resources-categories/properties
+                name: Listar Properties
+                meta:
+                  id: req_1822f11daffd4ab28c62f9b94d8628da
+                  created: 1770380573356
+                  modified: 1770380573356
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445885
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/resources-categories/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_ec346295e5e34e69999104f99ca9d482
+                  created: 1770380573358
+                  modified: 1770380573358
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445884
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/resources-categories
+                name: Inserir Categoria
+                meta:
+                  id: req_7a39c8e4d9874a298bff3bb27fc15eea
+                  created: 1770380573360
+                  modified: 1770380573360
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445883
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"id":"",
+                    	"categoryDescription": "Teste Insomnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/resources-categories/0
+                name: Alterar Categoria
+                meta:
+                  id: req_493cb56873bc4b42ae74207c8639c19e
+                  created: 1770380573362
+                  modified: 1770380573362
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445882
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"id":"1022",
+                    	"categoryDescription": "Teste Ins55omnia"
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/maintenence/resources-categories/0
+                name: Excluir Categoria
+                meta:
+                  id: req_500393388df94c5a854c6671353aea21
+                  created: 1770380573364
+                  modified: 1770380573364
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445881
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: QUALIDADE
+        meta:
+          id: fld_abc13bca2f964e199a806c1ccb866b5c
+          created: 1770380573366
+          modified: 1770380573366
+          sortKey: -1769777268547
+          description: ""
+        children:
+          - name: 70665 - FPOSEV
+            meta:
+              id: fld_e641cc8b80ff45599b9a91af62956285
+              created: 1770380573368
+              modified: 1770380573368
+              sortKey: -1769777654120
+              description: ""
+            children:
+              - url: http://localhost:9000/v1/quality/severity-tables/lists
+                name: Listar Severidades
+                meta:
+                  id: req_040bf3884eac4e7183330101e49c8d8c
+                  created: 1770380573370
+                  modified: 1770380573370
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445878
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/quality/severity-tables/properties
+                name: Listar Properties
+                meta:
+                  id: req_625c36c5513e4b5bb8c0c55635945c3c
+                  created: 1770380573372
+                  modified: 1770380573372
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445877
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/quality/severity-tables/reports
+                name: Imprimir Relatório
+                meta:
+                  id: req_19787895408f4c1796ec5967380dff99
+                  created: 1770380573374
+                  modified: 1770380573374
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445876
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"user": "VIS",
+                    	"pass": "Vini2025!",
+                    	"station": "DESENV-12",
+                    	"project": 1,
+                    	"adm": true
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/quality/severity-tables
+                name: Inserir Severidade
+                meta:
+                  id: req_8197a3a55ebc4aa1a9e5cc642ff1a633
+                  created: 1770380573376
+                  modified: 1770380573376
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445875
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"title":"carro",
+                    	"clientEffect": "TEste",
+                    	"effectOnManufacturingAssembly": "Teste",
+                    	"severityIndex": 56
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/quality/severity-tables/1
+                name: Alterar Severidade
+                meta:
+                  id: req_15dc3ac1b9d846b78d913eda0be547f5
+                  created: 1770380573378
+                  modified: 1770380573378
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445874
+                method: PUT
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"title": "CARRO 4",
+                    	"clientEffect": "Falha de teste!",
+                    	"effectOnManufacturingAssembly": "teste2",
+                    	"severityIndex": 10 
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: http://localhost:9000/v1/quality/severity-tables/0
+                name: Excluir Severidade
+                meta:
+                  id: req_d80b5787d79945ffbcedba13416f2e02
+                  created: 1770380573380
+                  modified: 1770380573380
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1769604445873
+                method: DELETE
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.4.0
+                authentication:
+                  type: bearer
+                  disabled: false
+                  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjUzNTYyMTUzODAsIm5hbWUiOiJWSU5JQ0lVUyBTSUxWQSIsInVzZXIiOiJWSVMiLCJ0eXBlVXNlciI6Ik0iLCJlbWFpbCI6InZpbmljaXVzLnNpbHZhQHp1Y2NoZXR0aS5jb21cbiIsInByb2plY3QiOjEsInN0YXRpb24iOiJERVNFTlYtMTIifQ.MQd89bTyh0gATR8GT7tHeDneLu89KCvlIsibjBIR1o0
+                  prefix: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
